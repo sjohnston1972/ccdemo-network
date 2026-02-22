@@ -1,0 +1,462 @@
+{
+  "timestamp": "2026-02-22T10:47:37.097270",
+  "discovered": 7,
+  "skipped": [
+    "192.168.20.12",
+    "192.168.20.13",
+    "192.168.20.14",
+    "192.168.20.15",
+    "192.168.20.16",
+    "192.168.20.17"
+  ],
+  "topology": {
+    "192.168.20.18": {
+      "neighbors": [
+        {
+          "device_id": "IOU4.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet3/3",
+          "remote_intf": "Ethernet3/3",
+          "mgmt_ips": [
+            "192.168.20.130"
+          ]
+        },
+        {
+          "device_id": "IOU4.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet0/0",
+          "remote_intf": "Ethernet0/0",
+          "mgmt_ips": [
+            "192.168.20.130"
+          ]
+        },
+        {
+          "device_id": "IOU5.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet3/3",
+          "remote_intf": "Ethernet3/3",
+          "mgmt_ips": [
+            "192.168.20.132"
+          ]
+        },
+        {
+          "device_id": "IOU1.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router",
+          "local_intf": "Ethernet3/3",
+          "remote_intf": "Ethernet1/2",
+          "mgmt_ips": [
+            "192.168.20.1"
+          ]
+        },
+        {
+          "device_id": "IOU3.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet3/3",
+          "remote_intf": "Ethernet3/3",
+          "mgmt_ips": [
+            "192.168.20.131"
+          ]
+        },
+        {
+          "device_id": "IOU3.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet0/1",
+          "remote_intf": "Ethernet0/1",
+          "mgmt_ips": [
+            "192.168.20.131"
+          ]
+        }
+      ]
+    },
+    "192.168.20.130": {
+      "neighbors": [
+        {
+          "device_id": "IOU5.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet3/3",
+          "remote_intf": "Ethernet3/3",
+          "mgmt_ips": [
+            "192.168.20.132"
+          ]
+        },
+        {
+          "device_id": "IOU5.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet0/3",
+          "remote_intf": "Ethernet0/3",
+          "mgmt_ips": [
+            "192.168.20.132"
+          ]
+        },
+        {
+          "device_id": "IOU1.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router",
+          "local_intf": "Ethernet3/3",
+          "remote_intf": "Ethernet1/2",
+          "mgmt_ips": [
+            "192.168.20.1"
+          ]
+        },
+        {
+          "device_id": "IOU2.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet3/3",
+          "remote_intf": "Ethernet3/3",
+          "mgmt_ips": [
+            "192.168.20.18"
+          ]
+        },
+        {
+          "device_id": "IOU2.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet0/0",
+          "remote_intf": "Ethernet0/0",
+          "mgmt_ips": [
+            "192.168.20.18"
+          ]
+        },
+        {
+          "device_id": "IOU3.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet3/3",
+          "remote_intf": "Ethernet3/3",
+          "mgmt_ips": [
+            "192.168.20.131"
+          ]
+        }
+      ]
+    },
+    "192.168.20.132": {
+      "neighbors": [
+        {
+          "device_id": "IOU4.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet3/3",
+          "remote_intf": "Ethernet3/3",
+          "mgmt_ips": [
+            "192.168.20.130"
+          ]
+        },
+        {
+          "device_id": "IOU4.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet0/3",
+          "remote_intf": "Ethernet0/3",
+          "mgmt_ips": [
+            "192.168.20.130"
+          ]
+        },
+        {
+          "device_id": "IOU1.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router",
+          "local_intf": "Ethernet3/3",
+          "remote_intf": "Ethernet1/2",
+          "mgmt_ips": [
+            "192.168.20.1"
+          ]
+        },
+        {
+          "device_id": "IOU2.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet3/3",
+          "remote_intf": "Ethernet3/3",
+          "mgmt_ips": [
+            "192.168.20.18"
+          ]
+        },
+        {
+          "device_id": "IOU3.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet3/3",
+          "remote_intf": "Ethernet3/3",
+          "mgmt_ips": [
+            "192.168.20.131"
+          ]
+        },
+        {
+          "device_id": "IOU3.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet0/2",
+          "remote_intf": "Ethernet0/2",
+          "mgmt_ips": [
+            "192.168.20.131"
+          ]
+        }
+      ]
+    },
+    "192.168.20.1": {
+      "neighbors": [
+        {
+          "device_id": "IOU1.clydeford.lab",
+          "platform": "Linux Unix",
+          "capabilities": "Router",
+          "local_intf": "Ethernet1/3",
+          "remote_intf": "Ethernet1/3",
+          "mgmt_ips": [
+            "192.168.1.126"
+          ]
+        },
+        {
+          "device_id": "IOU4.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet1/2",
+          "remote_intf": "Ethernet3/3",
+          "mgmt_ips": [
+            "192.168.20.130"
+          ]
+        },
+        {
+          "device_id": "IOU5.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet1/2",
+          "remote_intf": "Ethernet3/3",
+          "mgmt_ips": [
+            "192.168.20.132"
+          ]
+        },
+        {
+          "device_id": "IOU2.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet1/2",
+          "remote_intf": "Ethernet3/3",
+          "mgmt_ips": [
+            "192.168.20.18"
+          ]
+        },
+        {
+          "device_id": "IOU3.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet1/2",
+          "remote_intf": "Ethernet3/3",
+          "mgmt_ips": [
+            "192.168.20.131"
+          ]
+        }
+      ]
+    },
+    "192.168.20.131": {
+      "neighbors": [
+        {
+          "device_id": "IOU4.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet3/3",
+          "remote_intf": "Ethernet3/3",
+          "mgmt_ips": [
+            "192.168.20.130"
+          ]
+        },
+        {
+          "device_id": "IOU5.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet3/3",
+          "remote_intf": "Ethernet3/3",
+          "mgmt_ips": [
+            "192.168.20.132"
+          ]
+        },
+        {
+          "device_id": "IOU5.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet0/2",
+          "remote_intf": "Ethernet0/2",
+          "mgmt_ips": [
+            "192.168.20.132"
+          ]
+        },
+        {
+          "device_id": "IOU1.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router",
+          "local_intf": "Ethernet3/3",
+          "remote_intf": "Ethernet1/2",
+          "mgmt_ips": [
+            "192.168.20.1"
+          ]
+        },
+        {
+          "device_id": "IOU2.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet3/3",
+          "remote_intf": "Ethernet3/3",
+          "mgmt_ips": [
+            "192.168.20.18"
+          ]
+        },
+        {
+          "device_id": "IOU2.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet0/1",
+          "remote_intf": "Ethernet0/1",
+          "mgmt_ips": [
+            "192.168.20.18"
+          ]
+        }
+      ]
+    },
+    "192.168.1.126": {
+      "neighbors": [
+        {
+          "device_id": "IOU5.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router",
+          "local_intf": "Ethernet1/2",
+          "remote_intf": "Ethernet1/3",
+          "mgmt_ips": [
+            "192.168.20.13"
+          ]
+        },
+        {
+          "device_id": "IOU6.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router",
+          "local_intf": "Ethernet1/2",
+          "remote_intf": "Ethernet1/3",
+          "mgmt_ips": [
+            "192.168.20.14"
+          ]
+        },
+        {
+          "device_id": "IOU7.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router",
+          "local_intf": "Ethernet1/2",
+          "remote_intf": "Ethernet1/3",
+          "mgmt_ips": [
+            "192.168.20.15"
+          ]
+        },
+        {
+          "device_id": "IOU1.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router",
+          "local_intf": "Ethernet1/3",
+          "remote_intf": "Ethernet1/3",
+          "mgmt_ips": [
+            "192.168.1.220"
+          ]
+        },
+        {
+          "device_id": "IOU2.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router",
+          "local_intf": "Ethernet1/2",
+          "remote_intf": "Ethernet1/3",
+          "mgmt_ips": [
+            "192.168.20.17"
+          ]
+        },
+        {
+          "device_id": "IOU3.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router",
+          "local_intf": "Ethernet1/2",
+          "remote_intf": "Ethernet1/3",
+          "mgmt_ips": [
+            "192.168.20.12"
+          ]
+        },
+        {
+          "device_id": "IOU8.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router",
+          "local_intf": "Ethernet1/2",
+          "remote_intf": "Ethernet1/3",
+          "mgmt_ips": [
+            "192.168.20.16"
+          ]
+        },
+        {
+          "device_id": "IOU9.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet1/2",
+          "remote_intf": "Ethernet3/3",
+          "mgmt_ips": [
+            "192.168.20.18"
+          ]
+        }
+      ]
+    },
+    "192.168.1.220": {
+      "neighbors": [
+        {
+          "device_id": "IOU1.clydeford.lab",
+          "platform": "Linux Unix",
+          "capabilities": "Router",
+          "local_intf": "Ethernet1/3",
+          "remote_intf": "Ethernet1/3",
+          "mgmt_ips": [
+            "192.168.1.126"
+          ]
+        },
+        {
+          "device_id": "IOU4.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet1/2",
+          "remote_intf": "Ethernet3/3",
+          "mgmt_ips": [
+            "192.168.20.130"
+          ]
+        },
+        {
+          "device_id": "IOU5.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet1/2",
+          "remote_intf": "Ethernet3/3",
+          "mgmt_ips": [
+            "192.168.20.132"
+          ]
+        },
+        {
+          "device_id": "IOU2.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet1/2",
+          "remote_intf": "Ethernet3/3",
+          "mgmt_ips": [
+            "192.168.20.18"
+          ]
+        },
+        {
+          "device_id": "IOU3.clydeford.net",
+          "platform": "Linux Unix",
+          "capabilities": "Router Switch IGMP",
+          "local_intf": "Ethernet1/2",
+          "remote_intf": "Ethernet3/3",
+          "mgmt_ips": [
+            "192.168.20.131"
+          ]
+        }
+      ]
+    }
+  }
+}
